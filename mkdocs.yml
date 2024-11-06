@@ -1,0 +1,68 @@
+site_name: BioCypher Documentation
+site_url : https://sitename.example    # URL where the webpage will be hosted, by default it it localhost
+theme:
+  name: material
+  font:
+    text: Roboto       # Define the font that will be used for the text on the webpage
+    code: Roboto Mono            # Define the font that will be used for code on the webpage
+  logo: assets/img/logo.png       # Configure the logo for the webpage
+  favicon: assets/img/favicon_biocypher_32px.png
+  features:
+    - content.code.copy # Render a button to copy the code to the clipboard
+    - navigation.footer
+
+
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+
+  #-----  Icons and Emojis configuration
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
+  #---------------    Code block and inline code block configuration
+  #---    Note: list of Pygments: https://pygments.org/docs/lexers/
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  
+  #---------------    Code block and inline code block configuration
+  - pymdownx.tabbed:
+      alternate_style: true
+    
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/edwin-carreno-lozano/
+
+copyright: © Copyright 2021-2024, BioCypher developers.
