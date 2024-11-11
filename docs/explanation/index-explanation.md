@@ -1,0 +1,6 @@
+- Explanation:
+    - Basics of Knowledge Graphs.
+      - Nodes, Edges, Graphs
+      - How a graph is represented in BioCypher?
+    - What is a BioCypher pipeline?
+    - Glossary of terms

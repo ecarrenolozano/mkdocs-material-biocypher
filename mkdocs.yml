@@ -5,7 +5,7 @@ theme:
   font:
     text: Roboto       # Define the font that will be used for the text on the webpage
     code: Roboto Mono            # Define the font that will be used for code on the webpage
-  logo: assets/img/logo.png       # Configure the logo for the webpage
+  logo: assets/img/logo-biocypher.png       # Configure the logo for the webpage
   favicon: assets/img/favicon_biocypher_32px.png
   features:
     - content.code.copy # Render a button to copy the code to the clipboard
@@ -13,26 +13,46 @@ theme:
 
 
   palette:
+
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
-      accent: deep purple
+      primary: custom
+      accent: light green
 
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        name: Light
+      primary: green
+      accent: light green
+
+nav:
+  - BioCypher Project: index.md
+  - Timeline: timeline.md
+  - Installation: installation.md
+  - Tutorials: tutorials/index-tutorials.md
+  - How-to Guides: how-to-guides/index-how-to-guides.md
+  - Explanation: explanation/index-explanation.md
+  - Reference:
+    - API Documentation: reference/api-reference.md
+    - BioCypher Configuration Reference: reference/biocypher-config-guide.md
+    - Schema Configuration Reference: reference/schema-config-guide.md
+
+  #- Community:
+  #  - BioCypher Design Philosophy: community/biocypher-design-philosophy.md
+  #  - BioCypher Governance | Build + Ci: community/biocypher-governance-buildci.md
+  #  - BioCypher Governance | Mechanics: community/biocypher-governance-mechanics.md
+  #  - BioCypher Governance | Maintainers: community/biocypher-governance-maintainers.md
 
 
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.superfences:
@@ -57,6 +77,10 @@ markdown_extensions:
   #---------------    Code block and inline code block configuration
   - pymdownx.tabbed:
       alternate_style: true
+
+  #---------------    Configure the title to the Table of Contents
+  - toc:
+      title: On this page
     
 extra:
   social:
@@ -64,5 +88,10 @@ extra:
       link: https://www.youtube.com
     - icon: simple/linkedin
       link: https://www.linkedin.com/in/edwin-carreno-lozano/
+
+extra_css:
+  - stylesheets/extra.css
+  - timeline.css
+
 
 copyright: © Copyright 2021-2024, BioCypher developers.
