@@ -13,7 +13,6 @@ theme:
     - navigation.path
     - navigation.footer
 
-    
 
   palette:
     # Palette toggle for dark mode
@@ -21,16 +20,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: custom
-      accent: light green
+      primary: green
+      accent: deep purple
 
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light
-      primary: green
-      accent: light green
+      primary: blue
+      accent: deep orange
 
 nav:
   - BioCypher Project: index.md
