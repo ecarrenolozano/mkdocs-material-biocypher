@@ -4,8 +4,6 @@
 }
 */
 
-
-
 /* Increase the base font size for the main content */
 .md-typeset {
     font-size: 16px; /* Adjust to preferred size */
@@ -36,7 +34,7 @@
 
 /* Adjust font size for code blocks */
 .md-typeset code {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* Customize font size for the sidebar navigation */
@@ -57,3 +55,4 @@
     --md-accent-fg-color:     #FFFFFF;
 
   }
+

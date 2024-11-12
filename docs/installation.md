@@ -1,12 +1,7 @@
 # Install BioCypher
 
-BioCypher is tested and supported on the following 64-bit systems
-
-- Python 3.10-3.12
-- Ubuntu 22.04 or later
-- Windows 7 or later
-- macOS 10.12.6 (Sierra) or later
-- WSL via Windows 10
+## System Requirements
+TO DO : complete this section
 
 
 ## Prerequisites

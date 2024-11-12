@@ -9,11 +9,13 @@ theme:
   favicon: assets/img/favicon_biocypher_32px.png
   features:
     - content.code.copy # Render a button to copy the code to the clipboard
+    - navigation.indexes    
+    - navigation.path
     - navigation.footer
 
+    
 
   palette:
-
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
@@ -32,13 +34,23 @@ theme:
 
 nav:
   - BioCypher Project: index.md
-  - Timeline: timeline.md
   - Installation: installation.md
-  - Tutorials: tutorials/index-tutorials.md
-  - How-to Guides: how-to-guides/index-how-to-guides.md
-  - Explanation: explanation/index-explanation.md
+  - Tutorials: 
+    - tutorials/index.md
+    - BioCypher and Pandas: tutorials/pandas_tutorial.ipynb
+    - Basics: tutorials/tutorial001_basics.md
+    - Handling Ontologies: tutorials/tutorial002_handling_ontologies.md
+    - Adapters: tutorials/tutorial003_adapters.md
+  - How-to Guides: 
+    - how-to-guides/index.md
+  - Explanation: 
+    - explanation/index.md
   - Reference:
-    - API Documentation: reference/api-reference.md
+    - reference/index.md
+    - API Documentation: 
+      - reference/source/index.md
+      - biocypher: reference/source/biocypher.md
+
     - BioCypher Configuration Reference: reference/biocypher-config-guide.md
     - Schema Configuration Reference: reference/schema-config-guide.md
 
@@ -81,13 +93,18 @@ markdown_extensions:
   #---------------    Configure the title to the Table of Contents
   - toc:
       title: On this page
-    
+
+plugins:
+  - search
+  - mkdocstrings
+  - mkdocs-jupyter
+
 extra:
   social:
-    - icon: simple/youtube
-      link: https://www.youtube.com
-    - icon: simple/linkedin
-      link: https://www.linkedin.com/in/edwin-carreno-lozano/
+    - icon: simple/zulip
+      link: https://biocypher.zulipchat.com/
+    - icon: material/contacts
+      link: https://saezlab.org/
 
 extra_css:
   - stylesheets/extra.css
