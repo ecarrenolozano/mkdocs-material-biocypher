@@ -32,7 +32,9 @@ theme:
       accent: deep orange
 
 nav:
-  - BioCypher Project: index.md
+  - BioCypher Project: 
+    - index.md
+    - BioCypher design philosophy: biocypher-project/design-philosophy.md
   - Installation: installation.md
   - Tutorials: 
     - tutorials/index.md
@@ -48,7 +50,6 @@ nav:
     - reference/index.md
     - API Documentation: 
       - reference/source/index.md
-      - biocypher: reference/source/biocypher.md
 
     - BioCypher Configuration Reference: reference/biocypher-config-guide.md
     - Schema Configuration Reference: reference/schema-config-guide.md

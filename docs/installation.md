@@ -1,7 +1,7 @@
 # Install BioCypher
 
 ## System Requirements
-TO DO : complete this section
+[//]: # (TODO yaxi: Complete this section, add a table with Operative Systems tested, Python versions)
 
 
 ## Prerequisites
@@ -16,7 +16,7 @@ TO DO : complete this section
 
 ## Option 1. Use a pre-configured project with BioCypher
 
-TO DO: Organize the information and include it here.
+[//]: # (TODO yaxi: add a summary of the instructions given here https://github.com/biocypher/project-template)
 
 ## Option 2. Download a Package
 
