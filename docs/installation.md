@@ -4,8 +4,10 @@
 [//]: # (TODO yaxi: Complete this section, add a table with Operative Systems tested, Python versions)
 
 
+
 ## Prerequisites
-1. Ensure that your Python version is 3.10 or higher. To check your current Python version, run the following command in your terminal, Command Prompt, or PowerShell:
+1. Ensure that your Python version is 3.10 or higher. To check your current Python version, run the following command in
+your terminal, Command Prompt, or PowerShell:
    ```bash
    python --version
    ```
@@ -18,11 +20,42 @@
 
 [//]: # (TODO yaxi: add a summary of the instructions given here https://github.com/biocypher/project-template)
 
+=== "local"
+   !!! Note "Note"These are manual installation instructions. If you created the repository using the above GitHub template 
+       functionality, you don't need to do the first two steps. Instead, just clone the repository you have created.
+
+
+    ```
+    # Clone this repository and rename to your project name.
+    git clone https://github.com/biocypher/project-template.git
+    mv project-template my-project
+    cd my-project
+   
+    # Make the repository your own.
+    rm -rf .git
+    git init
+    git add .
+    git commit -m "Initial commit"
+    # (you can add your remote repository here)
+ 
+    # Install the dependencies using Poetry. 
+    # Or feel free to use your own dependency management system. 
+    # We provide a pyproject.toml to define dependencies.)
+    poetry install
+    
+    #You are ready to go!
+    poetry shell
+    python create_knowledge_graph.py
+    ```
+
 ## Option 2. Download a Package
 
-=== "poetry (recommended)"
+=== "poetry(recommended)"
     !!! note "Note: About Poetry"
-        Poetry is a tool for **dependency management** and **packaging** in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution. For information about the installation process, you can consult [here](https://python-poetry.org/docs/#installation).
+        Poetry is a tool for **dependency management** and **packaging** in Python. It allows you to declare the 
+        libraries your project depends on and it will manage (install/update) them for you. Poetry offers a lockfile to 
+        ensure repeatable installs, and can build your project for distribution. For information about the installation 
+        process, you can consult [here](https://python-poetry.org/docs/#installation).
 
     ```bash
     # Create a new Poetry project, i.e. my-awesome-kg-project.

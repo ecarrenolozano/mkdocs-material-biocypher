@@ -1,8 +1,10 @@
 # Explanation:
 
 ## Purpose
+The purpose of this documentation is to provide a comprehensive guide to understanding and working with knowledge graphs 
+within the context of BioCypher.  It aims to explain the fundamental concepts of knowledge graphs and how they are 
+represented in BioCypher.
 
-TO DO: What is the purpose of this section of the document?
 
 ## Catalog
 
