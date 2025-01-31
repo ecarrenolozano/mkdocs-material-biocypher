@@ -33,7 +33,7 @@ theme:
 
 nav:
   - BioCypher Ecosystem: 
-    - index.md
+    - Home: index.md
     - BioCypher design philosophy: biocypher-project/design-philosophy.md
     - BioCypher + LLMs: biocypher-project/biochatter-integration.md
   - Installation: installation.md
@@ -44,7 +44,7 @@ nav:
     - Handling Ontologies: tutorials/tutorial002_handling_ontologies.md
     - Adapters: tutorials/tutorial003_adapters.md
   - How-to Guides: 
-    - how-to-guides/index.md
+    - how-to-guides/index.md- Home: index.md
   - Explanation: 
     - explanation/index.md
   - Reference:

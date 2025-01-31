@@ -32,6 +32,6 @@ default configuration parameters, which can be overridden by creating a `biocyph
 root or config directory,specifying the parameters you wish to change.
 
 #### Outputs
- Initially focused on Neo4j due to OmniPath's migration, BioCypher now supports multiple output formats, including RDF, 
- SQL, ArangoDB, CSV, PostgreSQL, SQLite, and NetworkX, specified via the dbms parameter in the `biocypher_config.yaml` 
- file. Users can choose between online mode or offline mode.
+Initially focused on Neo4j due to OmniPath's migration, BioCypher now supports multiple output formats, including RDF, 
+SQL, ArangoDB, CSV, PostgreSQL, SQLite, and NetworkX, specified via the dbms parameter in the `biocypher_config.yaml` 
+file. Users can choose between online mode or offline mode.

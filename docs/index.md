@@ -1,6 +1,8 @@
 ![Alt text](./assets/img/banner-biocypher.png)
 
 [//]: # (TODO yaxi: when render the web page the word "Index" appears. Remove that!)
+[//]: # (done in mkdocs.yml line:36 )
+
 
 [//]: # (TODO edwin: review appealing options to make this page 1000% attractive)
 ## Overview
