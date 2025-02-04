@@ -1,10 +1,21 @@
 # BioCypher Configuration Reference
 
-## Purpose: TO DO 
+## Purpose
+The configuration in BioCypher customizes its behavior by overriding default settings through a `biocypher_config.yaml` 
+file. It ensures flexibility for different use cases by allowing you to define data sources, database connections, and 
+output formats.
 
-## Convention for naming: TO DO
 
-## Skeleton: TO DO
+## Convention for naming
+It is important to follow the rules of indentation in the YAML file. BioCypher module configuration is found under the 
+top-level keyword `biocypher`, while the settings for DBMS systems (e.g., Neo4j) are found under their respective 
+keywords (e.g., `neo4j`).
+
+If possible, avoid using quote characters in your YAML files. If you need to quote, for instance a tab delimiter (`\t`),
+use single quotes (`'`), since double quotes (`"`) allow parsing of escape characters in YAML, which can cause issues 
+downstream. It is safe to use double quotes to quote a single quote character (`"'"`).
+
+## Skeleton
 
 ```yaml
 biocypher:

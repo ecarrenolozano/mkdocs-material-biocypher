@@ -9,3 +9,4 @@ biochatter is a Python package implementing a generic backend library for the co
 
 ### BioCypher Ecosystem (BioCypher + BioChatter)
 ![Alt text](../assets/img/biochatter-overview-biocypher.png)
+
